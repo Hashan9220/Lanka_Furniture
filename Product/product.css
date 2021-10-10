@@ -1,0 +1,128 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    width: 100%;
+    border-width: 2px;
+    margin-top: 20px;
+
+
+}
+.main .name0{
+    width: 150px;
+    height: 20px;
+    font-family: "Kaushan Script";
+    margin-left: 50px;
+    font-size: 20px;
+
+}
+.main .select1{
+    height:500px;
+    width: 400px;
+    /*margin: auto;*/
+    margin-top: 20px;
+    border: outset;
+    left: 10%;
+}
+
+.main .select2{
+    position: absolute;
+    /*background-color: #000;*/
+    height:500px;
+    width: 400px;
+    margin-left: 22.8%;
+    top: 67px;
+    border: outset;
+    left: 10%;
+}
+.main .select3{
+    position: absolute;
+    /*background-color: #000;*/
+    height:500px;
+    width: 400px;
+    margin-left: 55.5%;
+    top: 67px;
+    border:  outset ;
+    left: 10%;
+}
+.main .name1{
+    width: 150px;
+    height: 20px;
+    font-family: "Kaushan Script";
+    margin-left: 50px;
+    font-size: 20px;
+
+}
+.main .select4{
+    position: absolute;
+    /*background-color: #000;*/
+    height:500px;
+    width: 400px;
+    /*margin-left: 55.5%;*/
+    margin-top: 20px;
+    border: outset;
+    /*left: 10%;*/
+}
+.main .select5{
+    position: absolute;
+    /*background-color: #000;*/
+    height:500px;
+    width: 400px;
+    margin-left: 23%;
+    margin-top: 20px;
+    border: outset;
+    left: 10%;
+}
+.main .select6{
+    position: absolute;
+    /*background-color: #000;*/
+    height:500px;
+    width: 400px;
+    margin-left: 55.5%;
+    margin-top: 20px;
+    border: outset;
+    left: 10%;
+}
+.main .name2{
+    position: absolute;
+    width: 150px;
+    height: 20px;
+    font-family: "Kaushan Script";
+    margin-top: 45%;
+    left: 50px;
+    font-size: 20px;
+
+}
+.main .select7{
+    position: absolute;
+    /*background-color: #000;*/
+    height:500px;
+    width: 400px;
+    /*margin-left: 55.5%;*/
+    margin-top: 45%;
+    border: outset;
+    /*left: 10%;*/
+}
+.main .select8{
+    position: absolute;
+    /*background-color: #000;*/
+    height:500px;
+    width: 400px;
+    margin-left: 23%;
+    margin-top: 45%;
+    border: outset;
+    left: 10%;
+}
+.main .select9{
+    position: absolute;
+    /*background-color: #000;*/
+    height:500px;
+    width: 400px;
+    margin-left: 55.5%;
+    margin-top: 45%;
+    border: outset;
+    left: 10%;
+
+}
