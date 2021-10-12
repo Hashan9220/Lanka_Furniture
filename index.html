@@ -10,43 +10,51 @@
 </head>
 <body>
 <!--<div class="logo_name">Lanka Furniture</div>-->
+<div class="navbar">
+    <a href="#home">Home</a>
+    <div class="dropdown">
+        <button class="dropbtn">Product
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="#">Sofa</a>
+            <a href="../src/Product/product.html">Bed</a>
+            <a href="#">Table</a>
+            <a href="#">Chair</a>
+        </div>
+
+    </div>
+    <a href="#news">Contact</a>
+</div>
 <div class="logo">
 
     <img src="asset/logo.jpeg" alt="">
     <text class="logoName">Lanka Furniture</text>
 
-    <div class="nav1">
-        <ul>
-            <li><a> Home </a> </li>
-            <li><a>Product</a></li>
-            <li><a>Shop</a></li>
-            <li><a>Contact</a></li>
-        </ul>
-    </div>
 </div>
 
 
-    <div class="slider-text">
-        <span>W</span>
-        <span>e</span>
-        <span>l</span>
-        <span>C</span>
-        <span>o</span>
-        <span>m</span>
-        <span>e</span>
-        <h2>Best Preducts In Sri Lanka</h2>
-        <a href="#">Contact Us</a>
-    </div>
+<div class="slider-text">
+    <span>W</span>
+    <span>e</span>
+    <span>l</span>
+    <span>C</span>
+    <span>o</span>
+    <span>m</span>
+    <span>e</span>
+    <h2>Best Preducts In Sri Lanka</h2>
+    <a href="#">Contact Us</a>
+</div>
 <section class="sec1">
-<div class="img-area" style="background: rgba(255,255,255,.2);">
-    <div class="image"><img width="100%" src="asset/bed1.jpg" alt="slider image"></div>
-    <div class="image"><img width="100%"  src="asset/bed3.jpg" alt="slider image"></div>
-    <div class="image"><img width="100%"  src="asset/deco.jpg" alt="slider image"></div>
-    <div class="image"><img width="100%"  src="asset/sofa.jpg" alt="slider image"></div>
-    <div class="image"><img width="100%"  src="asset/bed4.jpg" alt="slider image"></div>
-    <div class="image"><img width="100%"  src="asset/sofa1.jpg" alt="slider image"></div>
-    <div class="image"><img width="100%"  src="asset/bed5.jpg" alt="slider image"></div>
-</div>
+    <div class="img-area" style="background: rgba(255,255,255,.2);">
+        <div class="image"><img width="100%" src="asset/bed1.jpg" alt="slider image"></div>
+        <div class="image"><img width="100%" src="asset/bed3.jpg" alt="slider image"></div>
+        <div class="image"><img width="100%" src="asset/deco.jpg" alt="slider image"></div>
+        <div class="image"><img width="100%" src="asset/sofa.jpg" alt="slider image"></div>
+        <div class="image"><img width="100%" src="asset/bed4.jpg" alt="slider image"></div>
+        <div class="image"><img width="100%" src="asset/sofa1.jpg" alt="slider image"></div>
+        <div class="image"><img width="100%" src="asset/bed5.jpg" alt="slider image"></div>
+    </div>
 </section>
 <script
         src="https://code.jquery.com/jquery-3.6.0.min.js"
@@ -55,7 +63,7 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
 
 <script>
-    $(document).ready(function(){
+    $(document).ready(function () {
         $('.img-area').slick({
             // dots: true,
             arrows: false,
@@ -63,8 +71,6 @@
             autoplaySpeed: 1000
         })
     });
-
-
 
 
 </script>

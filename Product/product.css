@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 body{
     padding: 0;
     margin: 0;
@@ -26,7 +27,35 @@ body{
     border: outset;
     left: 10%;
 }
+.main .select1 .detal{
+    position: absolute;
+    margin-left: 7%;
+    margin-top: 10px;
+    width: 250px;
+    height: 120px;
+    /*background-color: aqua;*/
 
+}
+.main .select1 .detal .bed1{
+   position: absolute;
+    font-family: "Raleway";
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+.main .select1 .detal .bed2{
+    position: absolute;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 45px;
+}
+.main .select1 .detal .bed3{
+    position: absolute;
+    font-size: 27px;
+    margin-top: 85px;
+    margin-left: 60px;
+    font-weight: bold;
+}
 .main .select2{
     position: absolute;
     /*background-color: #000;*/
@@ -37,6 +66,35 @@ body{
     border: outset;
     left: 10%;
 }
+.main .select2 .detal1{
+    position: absolute;
+    margin-left: 7%;
+    margin-top: 10px;
+    width: 250px;
+    height: 120px;
+    /*background-color: aqua;*/
+
+}
+.main .select2 .detal1 .bed4{
+    position: absolute;
+    font-family: "Raleway";
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+.main .select2 .detal1 .bed5{
+    position: absolute;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 65px;
+}
+.main .select2 .detal1 .bed6{
+    position: absolute;
+    font-size: 27px;
+    margin-top: 85px;
+    margin-left: 80px;
+    font-weight: bold;
+}
 .main .select3{
     position: absolute;
     /*background-color: #000;*/
@@ -46,6 +104,35 @@ body{
     top: 67px;
     border:  outset ;
     left: 10%;
+}
+.main .select3 .detal2{
+    position: absolute;
+    margin-left: 7%;
+    margin-top: 10px;
+    width: 250px;
+    height: 120px;
+    /*background-color: aqua;*/
+
+}
+.main .select3 .detal2 .bed7{
+    position: absolute;
+    font-family: "Raleway";
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 30%;
+}
+.main .select3 .detal2 .bed8{
+    position: absolute;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 25%;
+}
+.main .select3 .detal2 .bed9{
+    position: absolute;
+    font-size: 27px;
+    margin-top: 85px;
+    margin-left: 30%;
+    font-weight: bold;
 }
 .main .name1{
     width: 150px;
@@ -65,6 +152,35 @@ body{
     border: outset;
     /*left: 10%;*/
 }
+.main .select4 .detal3{
+    position: absolute;
+    margin-left: 7%;
+    margin-top: 10px;
+    width: 250px;
+    height: 120px;
+    /*background-color: aqua;*/
+
+}
+.main .select4 .detal3 .bed10{
+    position: absolute;
+    font-family: "Raleway";
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 30%;
+}
+.main .select4 .detal3 .bed11{
+    position: absolute;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 25%;
+}
+.main .select4 .detal3 .bed12{
+    position: absolute;
+    font-size: 27px;
+    margin-top: 85px;
+    margin-left: 30%;
+    font-weight: bold;
+}
 .main .select5{
     position: absolute;
     /*background-color: #000;*/
@@ -75,6 +191,35 @@ body{
     border: outset;
     left: 10%;
 }
+.main .select5 .detal4{
+    position: absolute;
+    margin-left: 7%;
+    margin-top: 10px;
+    width: 250px;
+    height: 120px;
+    /*background-color: aqua;*/
+
+}
+.main .select5 .detal4 .bed10{
+    position: absolute;
+    font-family: "Raleway";
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 30%;
+}
+.main .select5 .detal4 .bed11{
+    position: absolute;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 25%;
+}
+.main .select5 .detal4 .bed12{
+    position: absolute;
+    font-size: 27px;
+    margin-top: 85px;
+    margin-left: 30%;
+    font-weight: bold;
+}
 .main .select6{
     position: absolute;
     /*background-color: #000;*/
@@ -84,6 +229,35 @@ body{
     margin-top: 20px;
     border: outset;
     left: 10%;
+}
+.main .select6 .detal5{
+    position: absolute;
+    margin-left: 7%;
+    margin-top: 10px;
+    width: 250px;
+    height: 120px;
+    /*background-color: aqua;*/
+
+}
+.main .select6 .detal5 .bed10{
+    position: absolute;
+    font-family: "Raleway";
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 30%;
+}
+.main .select6 .detal5 .bed11{
+    position: absolute;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 25%;
+}
+.main .select6 .detal5 .bed12{
+    position: absolute;
+    font-size: 27px;
+    margin-top: 85px;
+    margin-left: 30%;
+    font-weight: bold;
 }
 .main .name2{
     position: absolute;
@@ -105,6 +279,35 @@ body{
     border: outset;
     /*left: 10%;*/
 }
+.main .select7 .detal6{
+    position: absolute;
+    margin-left: 7%;
+    margin-top: 10px;
+    width: 250px;
+    height: 120px;
+    /*background-color: aqua;*/
+
+}
+.main .select7 .detal6 .bed13{
+    position: absolute;
+    font-family: "Raleway";
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 30%;
+}
+.main .select7 .detal6 .bed14{
+    position: absolute;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 25%;
+}
+.main .select7 .detal6 .bed15{
+    position: absolute;
+    font-size: 27px;
+    margin-top: 85px;
+    margin-left: 30%;
+    font-weight: bold;
+}
 .main .select8{
     position: absolute;
     /*background-color: #000;*/
@@ -115,6 +318,35 @@ body{
     border: outset;
     left: 10%;
 }
+.main .select8 .detal7{
+    position: absolute;
+    margin-left: 7%;
+    margin-top: 10px;
+    width: 250px;
+    height: 120px;
+    /*background-color: aqua;*/
+
+}
+.main .select8 .detal7 .bed13{
+    position: absolute;
+    font-family: "Raleway";
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 30%;
+}
+.main .select8 .detal7 .bed14{
+    position: absolute;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 25%;
+}
+.main .select8 .detal7 .bed15{
+    position: absolute;
+    font-size: 27px;
+    margin-top: 85px;
+    margin-left: 30%;
+    font-weight: bold;
+}
 .main .select9{
     position: absolute;
     /*background-color: #000;*/
@@ -124,5 +356,33 @@ body{
     margin-top: 45%;
     border: outset;
     left: 10%;
+}
+.main .select9 .detal8{
+    position: absolute;
+    margin-left: 7%;
+    margin-top: 10px;
+    width: 250px;
+    height: 120px;
+    /*background-color: aqua;*/
 
+}
+.main .select9 .detal8 .bed13{
+    position: absolute;
+    font-family: "Raleway";
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 30%;
+}
+.main .select9 .detal8 .bed14{
+    position: absolute;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 25%;
+}
+.main .select9 .detal8 .bed15{
+    position: absolute;
+    font-size: 27px;
+    margin-top: 85px;
+    margin-left: 30%;
+    font-weight: bold;
 }
