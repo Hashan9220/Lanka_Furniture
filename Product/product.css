@@ -386,3 +386,9 @@ body{
     margin-left: 30%;
     font-weight: bold;
 }
+
+
+.select5 .img5:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
