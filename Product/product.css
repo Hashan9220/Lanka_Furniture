@@ -2,6 +2,7 @@
 body{
     padding: 0;
     margin: 0;
+    background-color: black;
 }
 
 .main{
@@ -17,6 +18,7 @@ body{
     font-family: "Kaushan Script";
     margin-left: 50px;
     font-size: 20px;
+    color: #e3c51e;
 
 }
 .main .select1{
@@ -33,6 +35,7 @@ body{
     margin-top: 10px;
     width: 250px;
     height: 120px;
+    color: #e3c51e;
     /*background-color: aqua;*/
 
 }
@@ -55,6 +58,7 @@ body{
     margin-top: 85px;
     margin-left: 60px;
     font-weight: bold;
+    color: aqua;
 }
 .main .select2{
     position: absolute;
@@ -62,7 +66,7 @@ body{
     height:500px;
     width: 400px;
     margin-left: 22.8%;
-    top: 67px;
+    top: 24.5%;
     border: outset;
     left: 10%;
 }
@@ -72,6 +76,7 @@ body{
     margin-top: 10px;
     width: 250px;
     height: 120px;
+    color: #e3c51e;
     /*background-color: aqua;*/
 
 }
@@ -94,6 +99,7 @@ body{
     margin-top: 85px;
     margin-left: 80px;
     font-weight: bold;
+    color: aqua;
 }
 .main .select3{
     position: absolute;
@@ -101,7 +107,7 @@ body{
     height:500px;
     width: 400px;
     margin-left: 55.5%;
-    top: 67px;
+    top: 24.5%;
     border:  outset ;
     left: 10%;
 }
@@ -111,6 +117,7 @@ body{
     margin-top: 10px;
     width: 250px;
     height: 120px;
+    color: #e3c51e;
     /*background-color: aqua;*/
 
 }
@@ -133,6 +140,7 @@ body{
     margin-top: 85px;
     margin-left: 30%;
     font-weight: bold;
+    color: aqua;
 }
 .main .name1{
     width: 150px;
@@ -140,6 +148,7 @@ body{
     font-family: "Kaushan Script";
     margin-left: 50px;
     font-size: 20px;
+    color: #e3c51e;
 
 }
 .main .select4{
@@ -158,6 +167,7 @@ body{
     margin-top: 10px;
     width: 250px;
     height: 120px;
+    color: #e3c51e;
     /*background-color: aqua;*/
 
 }
@@ -180,6 +190,7 @@ body{
     margin-top: 85px;
     margin-left: 30%;
     font-weight: bold;
+    color: aqua;
 }
 .main .select5{
     position: absolute;
@@ -197,6 +208,7 @@ body{
     margin-top: 10px;
     width: 250px;
     height: 120px;
+    color: #e3c51e;
     /*background-color: aqua;*/
 
 }
@@ -219,6 +231,7 @@ body{
     margin-top: 85px;
     margin-left: 30%;
     font-weight: bold;
+    color: aqua;
 }
 .main .select6{
     position: absolute;
@@ -236,6 +249,7 @@ body{
     margin-top: 10px;
     width: 250px;
     height: 120px;
+    color: #e3c51e;
     /*background-color: aqua;*/
 
 }
@@ -258,6 +272,7 @@ body{
     margin-top: 85px;
     margin-left: 30%;
     font-weight: bold;
+    color: aqua;
 }
 .main .name2{
     position: absolute;
@@ -267,6 +282,7 @@ body{
     margin-top: 45%;
     left: 50px;
     font-size: 20px;
+    color: #e3c51e;
 
 }
 .main .select7{
@@ -285,6 +301,7 @@ body{
     margin-top: 10px;
     width: 250px;
     height: 120px;
+    color: #e3c51e;
     /*background-color: aqua;*/
 
 }
@@ -307,6 +324,7 @@ body{
     margin-top: 85px;
     margin-left: 30%;
     font-weight: bold;
+    color: aqua;
 }
 .main .select8{
     position: absolute;
@@ -324,6 +342,7 @@ body{
     margin-top: 10px;
     width: 250px;
     height: 120px;
+    color: #e3c51e;
     /*background-color: aqua;*/
 
 }
@@ -346,6 +365,7 @@ body{
     margin-top: 85px;
     margin-left: 30%;
     font-weight: bold;
+    color: aqua;
 }
 .main .select9{
     position: absolute;
@@ -363,6 +383,7 @@ body{
     margin-top: 10px;
     width: 250px;
     height: 120px;
+    color: #e3c51e;
     /*background-color: aqua;*/
 
 }
@@ -385,10 +406,111 @@ body{
     margin-top: 85px;
     margin-left: 30%;
     font-weight: bold;
+    color: aqua;
 }
 
 
 .select5 .img5:hover{
     opacity: 0.5;
     cursor: pointer;
+}
+
+.logo{
+    background-color: #e3c51e;
+    color: #000000;
+    width: 100%;
+    height: 100px;
+}
+.logo img{
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+.logo .logo_name{
+    width: 200px;
+    height: 50px;
+    font-size: 14px;
+    margin-left: 10%;
+    /*background-color: white;*/
+
+
+}
+.logo text{
+    font-size: 30px;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 50px;
+    /*font-family: 'Akronim', cursive;*/
+    font-family:Akronim;
+
+
+
+}
+.logo.nav1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+
+
+}
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #e3c51e;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
